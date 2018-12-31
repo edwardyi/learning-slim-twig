@@ -9,7 +9,9 @@ use Cart\Models\Product;
 class HomeController {
   public function index(Request $request, Response $response,Twig $view, Product $product)
   {
-    $data = $product->all();
+    // $products = Product::get();
+    // var_dump($products->first()->title);
+    // die();
     return $view->render($response, 'home.twig');
   }
 }

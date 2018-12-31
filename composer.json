@@ -1,0 +1,20 @@
+{
+    "name": "user/v0.0.2",
+    "authors": [
+        {
+            "name": "edwardyi",
+            "email": "yi.wei.jie@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.11",
+        "slim/twig-view": "^2.4",
+        "php-di/slim-bridge": "^2.0",
+        "illuminate/database": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cart\\": "app"
+        }
+    }
+}

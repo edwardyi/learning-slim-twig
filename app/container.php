@@ -4,6 +4,8 @@ use Slim\Views\Twig;
 use Slim\Views\TwigExtension;
 use Interop\Container\ContainerInterface;
 
+use function Di\get;
+
 return [
   'router' => get(Slim\Router::class),
   Twig::class => function(ContainerInterface $c) {
